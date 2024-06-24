@@ -1,17 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <div class="row">
+   <TeamWork member1="Jamin Langeveldt" member2="Leah Basson"/>
+  </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import TeamWork from '@/components/TeamWork.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+     TeamWork,
   }
 }
+
 </script>
 
 <style>
